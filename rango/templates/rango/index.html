@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rango Categories</title>
+</head>
+<body>
+    <h1>Rango says... Hello world!</h1>
+    <h2>Categories</h2>
+    <ul>
+        {% for category in categories %}
+        <li>{{ category.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
